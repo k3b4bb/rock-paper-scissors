@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fdf0d5   ;
+    color: #c1121f;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #003049;
+    color: #fdf0d5;
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    width: 100%;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.scoreboard {
+    margin-bottom: 30px;
+}
+main h2 {
+    font-family: "Bungee Shade", sans-serif;
+    color: #003049;
+    font-size: 40px;
+}
+
+main h3 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+    color: #003049;
+}
+
+.options {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-button {
+    width: 250px;
+    height: 250px;
+    background-color: #780000;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #c1121f;
+}
+
+.sign {
+    font-size: 80px;
+}
