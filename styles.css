@@ -40,7 +40,7 @@ main h2 {
     font-size: 40px;
 }
 
-main h3 {
+main h3, #winner-message {
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -68,4 +68,15 @@ main h3 {
 
 .sign {
     font-size: 80px;
+}
+
+.reset-button {
+    width: 180px;
+    height: 60px;
+    background-color: #003049;
+    color: #fdf0d5;
+    border-radius: 8px;
+    border-style: solid;
+    font-size: 20px;
+    font-weight: 900;
 }
